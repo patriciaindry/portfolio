@@ -1,0 +1,46 @@
+.carousel-3d-wrapper {
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Hide any overflow */
+  background: #f9f9f9; /* Light background */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  perspective: 1200px; /* Defines the strength of the 3D perspective */
+  cursor: grab; /* Cursor indicates draggable area */
+  user-select: none; /* Prevent text selection during drag */
+  -webkit-user-select: none; /* For Safari */
+  -moz-user-select: none; /* For Firefox */
+  -ms-user-select: none; /* For IE/Edge */
+}
+
+.carousel-3d-wrapper:active {
+  cursor: grabbing; /* Cursor changes when actively dragging */
+}
+
+.carousel-3d-slider {
+  width: 200px; /* Width of each carousel item */
+  height: 250px; /* Height of each carousel item */
+  position: relative;
+  transform-style: preserve-3d; /* Essential for 3D children */
+  /* The transition for the main slider rotation is handled by requestAnimationFrame for inertia */
+  /* You can remove or adjust the CSS transition here if it conflicts with JS animation */
+  /* transition: transform 0.1s ease-out; */ 
+}
+
+.carousel-3d-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* The transform and opacity transitions are applied inline in React for dynamic values */
+  /* transition: transform 0.3s ease-out, opacity 0.3s ease-out; */ 
+  cursor: pointer; /* Indicate items are clickable */
+  backface-visibility: hidden; /* Prevents flickering on some browsers */
+}
+
+.carousel-3d-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures image covers the item area */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}

@@ -1,0 +1,122 @@
+h1{
+    margin: 50px;
+}
+.category-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+/* i wanted to make the filter tabs animating the START */
+.category-tabs button {
+  position: relative;
+  padding: 5px 10px;
+  line-height: 1em;
+  border: 1px solid #000;
+  border-radius: 100px;
+  background: transparent;
+  cursor: pointer;
+  overflow: hidden;
+  color: black;
+  z-index: 0; /* ensure above the background pseudo */
+  transition: color 0.1s ease;
+}
+
+.category-tabs button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  border-radius: 100px;
+
+  transform: scaleX(0);                /* collapsed */
+  transform-origin: center center;     /* expand from middle horizontally */
+  transition: transform 0.2s ease;
+  z-index: -1;
+}
+
+.category-tabs button:hover::before {
+  transform: scaleX(1);                /* full width */
+}
+
+.category-tabs button:hover {
+  background: #000;
+  color: #fff;
+}
+
+.scroll-text {
+  display: inline-block;
+  height: 1em; 
+  line-height: 1em;
+  overflow: hidden;
+  vertical-align: bottom;
+  position: relative;
+}
+
+.scroll-text > span {
+  display: block;
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+}
+
+.scroll-text > span:nth-child(1) {
+  transform: translateY(0);
+  transition: transform 0.2s ease;
+}
+.scroll-text > span:nth-child(2){
+  transform: translateY(100%);
+  transition: transform 0.2s ease;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+}
+
+.category-tabs button:hover .scroll-text > span:nth-child(1) {
+  transform: translateY(-105%);
+}
+
+.category-tabs button:hover .scroll-text > span:nth-child(2) {
+  transform: translateY(-100%);
+}
+/* i wanted to make the filter tabs animating the END */
+
+.category-tabs .active {
+  background: black;
+  color: white;
+}
+
+.project-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px; /* space between cards */
+  padding: 20px 0;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  width: 70%;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  color: inherit;
+  transition: box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
