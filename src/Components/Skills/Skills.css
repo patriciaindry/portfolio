@@ -1,0 +1,83 @@
+:root {
+  --item-size: 150px;   /* size of square container */
+  --item-count: 8;      /* how many items */
+  --anim-duration: 30s; /* scroll speed */
+}
+
+.wrapper {
+  margin-top: 2rem;
+  width: 80%;
+  max-width: 1136px;
+  margin-inline: auto;
+  height: var(--item-size);
+  position: relative;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+@keyframes scrollLeft {
+  to {
+    left: calc(var(--item-size) * -1);
+  }
+}
+
+@keyframes scrollRight {
+  to {
+    right: calc(var(--item-size) * -1);
+  }
+}
+
+.itemLeft,
+.itemRight {
+  width: var(--item-size);
+  height: var(--item-size);
+  position: absolute;
+  animation-timing-function: linear;
+  animation-duration: var(--anim-duration);
+  animation-iteration-count: infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid white 1px;
+}
+
+.itemLeft {
+  left: max(calc(var(--item-size) * var(--item-count)), 100%);
+  animation-name: scrollLeft;
+}
+
+.itemRight {
+  right: max(calc(var(--item-size) * var(--item-count)), 100%);
+  animation-name: scrollRight;
+}
+
+/* Logo inside */
+.itemLeft img,
+.itemRight img {
+  max-width: 70%;
+  max-height: 70%;
+  object-fit: contain;
+
+}
+h1{
+    margin: 0 auto;
+}
+/* Mobile: smaller items */
+@media (max-width: 768px) {
+  :root {
+    --item-size: 100px;  /* smaller size for mobile */
+  }
+}
+
+/* Optional: even smaller for tiny screens */
+@media (max-width: 480px) {
+  :root {
+    --item-size: 80px;
+  }
+}

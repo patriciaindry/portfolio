@@ -18,11 +18,13 @@ import Test from "./Components/testing/Test";
 import Title from "./Components/Title/Title";
 import WorksDetail from "./pages/WorksDetail/WorksDetail";
 import Cursor from "./Components/Cursor/Cursor";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
 const App = () => {
   return (
       <>
       <Router>
+        <ScrollToTop />
         <Navbar/>
         <Routes>
           <Route path="/" element={<Landing />}/>

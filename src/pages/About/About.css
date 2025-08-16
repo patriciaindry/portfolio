@@ -1,7 +1,8 @@
-/* .text-area{
-    margin: 50px 200px;
-} */
-
+ .text-area{                                                                                                                                
+    padding: 5vh 10vw;                                                                                                                     
+    max-width: 1200px;                                                                                                                     
+    margin: 0 auto;                                                                                                                        
+}
 .profile-section{
     min-height: 80vh;
 }
