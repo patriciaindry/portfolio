@@ -1,60 +1,109 @@
-/* .navbar-default {
-    background-color: transparent;
-    color: white;
-}
-.navbar-default a {
-    color: white;
-}
-.navbar-white {
-    background-color: transparent;
-    color: white;
-}
-.navbar-white a {
-    color: white;
-} */
-
+/* General Nav Styling */
 nav {
     width: 100%;
-    padding: 4px 0; 
+    padding: 15px 5%;
     position: fixed;
     top: 0;
     left: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 10;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-.nav-ul .nav-li{
-    display: inline-block;
-    list-style: none;
-    margin: 5px 20px;
-    font-size: 16px; 
+    z-index: 1000;
+    transition: background-color 0.3s ease;
 }
 
-/* --- media query --- */
-@media (max-width: 1000px){
-    nav .nav-ul .nav-li{
-        margin: 10px 15px;
-    }
+.nav-ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
-@media (max-width: 840px){
-    nav{
-        padding: 15px 0;
+
+.nav-li {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 16px;
+}
+
+/* Desktop link color */
+.nav-li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-icon {
+    display: none; /* Hidden on desktop */
+}
+
+.menu-line {
+    background-color: #fff; /* Default line color for desktop */
+}
+
+/* --- Media Query for Mobile --- */
+@media (max-width: 840px) {
+    /* On mobile, links inside the slide-out menu should be dark */
+    .nav-ul .nav-li a {
+        color: #333;
     }
-    nav .nav-ul{
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        z-index: 1002;
+    }
+
+    .menu-line {
+        width: 28px;
+        height: 3px;
+        background-color: #333; /* Dark lines for mobile view */
+        margin: 5px 0;
+        transition: all 0.3s ease-in-out;
+    }
+
+    /* Animate hamburger to an 'X' */
+    .menu-icon.active .menu-line:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .menu-icon.active .menu-line:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-icon.active .menu-line:nth-child(3) {
+        transform: rotate(45deg) translate(-6px, -7px);
+    }
+
+    /* Mobile menu panel with glassmorphism effect */
+    .nav-ul {
         position: fixed;
         top: 0;
         right: 0;
-        bottom: 0;
-        background: rgba(0,0,8,0.5);
-        z-index: -1;
-        width: 200px;
-        padding-top: 70px;
-        transition: 0.5s;
+        height: 100vh;
+        width: 250px;
+        
+        /* Glassmorphism */
+        background: rgba(255, 255, 255, 0.15);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-left: 1px solid rgba(255, 255, 255, 0.18);
+
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 80px;
+        z-index: 1001;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in-out;
     }
-    nav .nav-ul .nav-li{
+
+    .nav-ul.nav-active {
+        transform: translateX(0);
+    }
+
+    .nav-li {
         display: block;
-        margin: 25px 40px;
+        margin: 25px 0;
     }
 }

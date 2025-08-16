@@ -19,6 +19,7 @@ footer {
   ". . . . . . . . . . . "  
   ". . . . . . . . . . . "  
   ;
+  gap: 20px;
   text-align: left;
 }
 p.foot-text {
