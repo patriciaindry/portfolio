@@ -44,7 +44,7 @@ nav {
 @media (max-width: 840px) {
     /* On mobile, links inside the slide-out menu should be dark */
     .nav-ul .nav-li a {
-        color: #333;
+        color: #fff;
     }
 
     .menu-icon {
@@ -56,7 +56,7 @@ nav {
     .menu-line {
         width: 28px;
         height: 3px;
-        background-color: #333; /* Dark lines for mobile view */
+        background-color: #fff; /* Dark lines for mobile view */
         margin: 5px 0;
         transition: all 0.3s ease-in-out;
     }
@@ -84,10 +84,10 @@ nav {
         
         /* Glassmorphism */
         background: rgba(255, 255, 255, 0.15);
-        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.21);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
-        border-left: 1px solid rgba(255, 255, 255, 0.18);
+        border-left: 1px solid rgba(255, 255, 255, 0.06);
 
         flex-direction: column;
         justify-content: flex-start;

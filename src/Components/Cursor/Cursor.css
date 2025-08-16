@@ -1,9 +1,18 @@
-.cursor{
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    border-radius: 9999px;
-    mix-blend-mode:exclusion;
-    pointer-events: none;
-    z-index: 300;
+/* Default state: cursor is hidden */
+.cursor {
+    display: none;
+}
+
+/* Only display the cursor on devices that can hover, like a desktop with a mouse */
+@media (hover: hover) and (pointer: fine) {
+    .cursor {
+        display: block; /* Make it visible */
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        border-radius: 9999px;
+        mix-blend-mode: exclusion;
+        pointer-events: none;
+        z-index: 300;
+    }
 }
