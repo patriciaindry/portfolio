@@ -12,13 +12,17 @@ const Works = () => {
 
     return (
         <div className="works-page">
-            <h1>Works</h1>
+            <h1></h1>
             <div className="category-tabs">
                 {categories.map(cat => (
                     <button
                         key={cat}
                         onClick={() => setActiveCategory(cat)}
                         className={activeCategory === cat ? "active" : " "}
+                        style={{
+                            transition: '0.1s ease-out'
+                        }
+                        }
                     >
                         <span className="scroll-text">
                             <span>{cat}</span>

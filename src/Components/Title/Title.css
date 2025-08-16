@@ -1,12 +1,13 @@
 .title{
+    position: absolute;
+    top: 50px;
     text-align: center;
     color: #fff;
     font-size: 15px;
     font-weight: 600px;
     text-transform: uppercase;
-    background-color: black;
     padding: 70px 0 0;
-
+    z-index: 10;
 }
 .title h2{
     font-size: 32px;

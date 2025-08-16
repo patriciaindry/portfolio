@@ -1,0 +1,21 @@
+/* .text-area{
+    margin: 50px 200px;
+} */
+
+.profile-section{
+    min-height: 80vh;
+}
+
+.skills-section{
+    min-height: 80vh;
+}
+
+.strength-section{
+    min-height: 80vh;
+}
+.activities-section{
+    min-height: 80vh;
+}
+.bio-section{
+    min-height: 80vh;
+}

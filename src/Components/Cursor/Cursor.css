@@ -1,0 +1,9 @@
+.cursor{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-radius: 9999px;
+    mix-blend-mode:exclusion;
+    pointer-events: none;
+    z-index: 300;
+}

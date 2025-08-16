@@ -1,4 +1,4 @@
-.navbar-default {
+/* .navbar-default {
     background-color: transparent;
     color: white;
 }
@@ -7,11 +7,11 @@
 }
 .navbar-white {
     background-color: transparent;
-    color: black;
+    color: white;
 }
 .navbar-white a {
-    color: black;
-}
+    color: white;
+} */
 
 nav {
     width: 100%;
@@ -25,7 +25,7 @@ nav {
     z-index: 10;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
-nav ul li{
+.nav-ul .nav-li{
     display: inline-block;
     list-style: none;
     margin: 5px 20px;
@@ -34,7 +34,7 @@ nav ul li{
 
 /* --- media query --- */
 @media (max-width: 1000px){
-    nav ul li {
+    nav .nav-ul .nav-li{
         margin: 10px 15px;
     }
 }
@@ -42,7 +42,7 @@ nav ul li{
     nav{
         padding: 15px 0;
     }
-    nav ul {
+    nav .nav-ul{
         position: fixed;
         top: 0;
         right: 0;
@@ -53,7 +53,7 @@ nav ul li{
         padding-top: 70px;
         transition: 0.5s;
     }
-    nav ul li {
+    nav .nav-ul .nav-li{
         display: block;
         margin: 25px 40px;
     }

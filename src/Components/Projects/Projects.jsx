@@ -2,6 +2,9 @@ import React, { useRef, useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Projects.css';
 import { projects } from '../../pages/Works/data';
+import circledots from '../../assets/circle-bg.mp4';
+import Title from "../Title/Title";
+
 
 const PLACEHOLDER_THUMBNAIL = "https://placehold.co/1200x675/CCCCCC/333333?text=No+Image";
 
@@ -133,7 +136,13 @@ const Projects = () => {
     }, [navigate]);
     
   return (
-    <div className="projects">
+    <div className='video-bg'>
+      {/* <video autoPlay muted loop id="video-bg">
+                      <source src={circledots} type="video/mp4" />
+                  </video>
+                  <div className="project-overlay"></div> */}
+                  <Title subTitle="2024-2025" title="Featured Works" />
+      <div className="projects">
       <div
         ref={wrapperRef}
         className="carousel-3d-wrapper"
@@ -167,14 +176,16 @@ const Projects = () => {
                 <div className="carousel-3d-item-inner">
                   <img src={thumb} alt={project.title} />
                   <div className="carousel-item-title-overlay">
-                    <h3>{project.title}</h3>
+                    <h2>{project.title}</h2>
                   </div>
                 </div>
               </div>
             );
           })}
         </div>
+
       </div>
+    </div>
     </div>
   );
 };

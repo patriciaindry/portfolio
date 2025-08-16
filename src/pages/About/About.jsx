@@ -1,29 +1,69 @@
-const About = () => {
+import React from "react";
+import './About.css';
+
+const AboutPage = () => {
     return (
-        <div>
-            <h1>Profile</h1><br />
-            <h1>Patricia Indry Ely</h1>
-            <h1>パトリシア インドリ エリ</h1>
-            <p>Special thanks to everyone who supported and encouraged me throughout this journey.
-                いつも支えてくれるみなさんに、心からの感謝を込めて。
+        <div className="text-area">
+            <div className="profile-section">
+                <h1>Profile</h1>
+            <p>
+                インドネシア出身、2004年生まれ。 MEXT奨学金を得て来日し、現在はアニメーション系の専門学校でAfter Effectsを中心にモーショングラフィックスや映像編集を学んでいます。 「夢」「感情」「記憶」といった抽象的なテーマや、日常にある何気ない風景や色から着想を得て、視覚的に表現することに魅力を感じています。 学びの途中ではありますが、自主制作やチーム制作を通して、アイデアを形にする力と技術を磨いています。ジャンルや手法にとらわれず、幅広い表現に挑戦し続けたいと考えています。
             </p>
-            <p>Thank you for visiting this page.
-                I'd like to express my heartfelt gratitude to everyone who has supported me throughout this journey.
-                To MEXT for the opportunity to study in Japan, and to the teachers who continue to guide me through this path.
-                To my family and friends, who encouraged me even during times of doubt.
-                To the people I've worked with, those who shared creative energy, and even those whose casual words made my day — thank you.
-                I couldn't have made this portfolio — or taken these steps forward — without all of you.
-            </p>
-            <p>このページをご覧いただきありがとうございます。
-                ポートフォリオ制作にあたって、これまで支えてくださったすべての方々に、心から感謝の気持ちを伝えたいです。
-                まず、私を日本へと導いてくれたMEXT奨学金制度と、日々の学びをサポートしてくださる先生方へ。
-                そして、不安や挫折の中でも励まし、応援してくれた家族と友人たち。
-                一緒にプロジェクトに取り組んだ仲間、作品を見てくれた人、そして時には何気ない会話で元気をくれた人にも、ありがとう。
-                自分一人では決してここまで来られませんでした。
-                これからも、一歩ずつ、自分のペースで前に進んでいきたいと思います。
-            </p>
+            </div>
+            <div className="skills-section">
+                <h1>Skills</h1>
+                <table>
+
+                </table>
+                <p>1.デザイン・映像・イラスト
+                        Adobe After Effects 	★★★★☆
+                        Adobe Photoshop  	★★★☆☆
+                        Adobe Illustrator 		★★★☆☆
+                        Figma					★★★☆☆
+                        Ibis Paint X 			★★★☆☆
+                    2.WEB開発
+                        HTML/CSS 			★★★★☆
+                        JavaScript				★★☆
+                        React JS				★★☆    
+                </p>
+            </div>
+            <div className="strength-section">
+                <h1>Strength</h1>
+                <p>1.好奇心と幅広いスキル
+                    アニメーション、音楽、モーショングラフィックスなどの創作分野から、Webプログラミングのような技術分野まで幅広く興味を持っています。新しいことに挑戦し続ける姿勢が、多様なスキルの習得につながっています。
+                    2.技術と細部へのこだわり
+                    グループ作業では、技術面での課題解決や、作品が意図通りに機能するための調整を自然に担当します。細部にまで気を配り、丁寧に作業を進めるため、安心して任せられる存在です。
+                    3.集中力の発揮
+                    普段は落ち着いて物事を進めますが、締め切りが近づくと集中力を高め、質の高い成果を出すことができます。この柔軟な対応力が、時間的制約のある場面でも力を発揮します。</p>
+            </div>
+            <div className="bio-section">
+                <h1>Biography</h1>
+                <p>
+                <li>2004.02-2022.06</li>
+                インドネシアのスマトラ島、メダン市で生まれ育ちました。小さい頃から好奇心が強く、さまざまなことに興味を持ち、新しいことに挑戦するのが好きでした。学校時代はそろばんを学び、全国大会にも出場。また、バドミントンなどのスポーツや生徒会活動にも参加しました。高校時代は新型コロナウイルスの影響で自宅学習が続き、その間にピアノやギターなどの楽器を独学し、動画編集にも取り組むようになりました。
+
+                <li>2022.08-2023.02</li>
+                高校卒業後、地元の国立大学に進学し、情報やコンピューター関連の分野を学びました。1年目にはWebプログラミングと出会い、その面白さに夢中になりました。在学中にMEXT奨学金の合格通知を受け、日本で学ぶための準備を始めました。
+
+                <li>2023.04~</li>
+                2023年に来日し、まず日本語学校で1年間学びました。その後、専門学校に進学し、現在はアニメーションを専攻しています。初めての海外生活で戸惑うことも多くありましたが、多くの友人や新しい経験との出会いが、自分の視野を広げてくれました。留学中にN1に合格し、ホテルやレストランでの接客、ツアーガイドなどのアルバイトを経験しました。生活を通して、日本のデザインやクリエイティブの世界に魅了され、アニメーションの学びに加えてWeb制作やモーショングラフィックスにも挑戦しています。
+
+                <li>2026.??~</li>
+                2026年以降は大学に進学し、自分の興味や関心をさらに深め、より幅広い表現力を身につけたいと考えています。見て感じる表現を通して人々の心を動かす作品を制作し、将来的には国や文化を越えて活躍できるクリエイターを目指しています。
+                </p>
+            </div>
+            <div className="activities-section">
+                <h1>Activities</h1>
+                <p>
+                    <li>東京の専門学校生バドミントン大会 優勝 </li>
+                    <li>おおた大使国際所属 </li>
+                    <li>体育祭や学校行事でのボランティア参加 </li>
+                    <li>ファッションショーや服のモデルとしての撮影協力</li>
+                </p>                
+            </div>    
         </div>
+
     );
 }
 
-export default About;
+export default AboutPage;
