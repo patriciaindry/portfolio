@@ -6,10 +6,10 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <div className="about">
-        {/* <video autoPlay muted loop id="video-bg-about">
+        <video autoPlay muted loop id="video-bg-about">
             <source src={circledots} type="video/mp4" />
         </video>
-        <div className="about-overlay"></div> */}
+        <div className="about-overlay"></div>
         <div className="about-container">
             <h2>*patricia indry ely (パトリシア・インドリ・エリ)</h2>
             <h4>2004.02.20 || 21y.o || Indonesia → Japan || MEXT student</h4>

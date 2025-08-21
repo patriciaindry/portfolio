@@ -36,19 +36,19 @@ h1.proj-h1{
 }
 #projcard-1{
   top: 50%;
-  left: 20%;
+  left: 40%;
 }
 #projcard-2{
   top: 25%;
-  left: 40%;
+  left: 60%;
 }
 #projcard-3{
   top: 45%;
-  left: 60%;
+  left: 70%;
 }
 #projcard-4{
   top: 15%;
-  left: 80%;
+  left: 95%;
 }
 .outro{
   position: relative;
@@ -80,6 +80,33 @@ h1.proj-h1{
 
 @media (max-width: 900px){
   .projects-wrapper{
-    padding-top: 20em;
+    position: relative;
+    top: 0;
+    width: 300vw;
+    height: 100vh;
+    will-change: transform;
+  }
+  .projcard{
+  position:absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+  #projcard-1{
+    top: 50%;
+    left: 20%;
+  }
+  #projcard-2{
+    top: 25%;
+    left: 45%;
+  }
+  #projcard-3{
+    top: 35%;
+    left: 65%;
+  }
+  #projcard-4{
+    top: 15%;
+    left: 95%;
   }
 }

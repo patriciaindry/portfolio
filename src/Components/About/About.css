@@ -51,3 +51,13 @@
   background-color: #04aa6d3e; /* Green */
   color: white;
 }
+
+@media (max-width: 900px){
+    .about-container{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+   .text-explain{
+    margin-bottom: 60px;
+   }
+}

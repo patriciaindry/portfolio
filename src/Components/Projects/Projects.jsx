@@ -47,7 +47,7 @@ const Projects = () => {
       ScrollTrigger.create({
         trigger: `#${card.id}`,
         start: "top top",
-        end: "+=300vh",
+        end: "+=350vh",
         scrub: 5,
         onUpdate: (self) => {
           gsap.to(`#${card.id}`, {
@@ -86,8 +86,8 @@ const Projects = () => {
             </Link>
           </div>
           <div className="projcard" id="projcard-4">
-            <Link to={`/works/${featured[3].id}`}>
-              <img src={`${import.meta.env.BASE_URL}${featured[3].thumbnail}`} alt={featured[3].title} />
+            <Link to={`/works/${featured[2].id}`}>
+              <img src={`${import.meta.env.BASE_URL}${featured[2].thumbnail}`} alt={featured[2].title} />
             </Link>
           </div>
         </section>
