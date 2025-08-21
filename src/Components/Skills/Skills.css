@@ -1,6 +1,6 @@
 :root {
   --item-size: 150px;   /* size of square container */
-  --item-count: 8;      /* how many items */
+  --item-count: 11;      /* how many items */
   --anim-duration: 30s; /* scroll speed */
 }
 
@@ -44,7 +44,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: solid white 1px;
+  border: solid rgba(255, 255, 255, 0.249) 1px;
 }
 
 .itemLeft {
