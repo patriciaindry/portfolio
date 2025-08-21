@@ -8,11 +8,11 @@ export const projects = [
         slug: "green", 
         title: "Green",
         categories: ["Movie"],
-        thumbnail: "",
+        thumbnail: "/thumbnail/galaxy.png",
         description: "green motion graphics",
         type: "video",
         youtubeId: "",
-        featuredWork: "true"
+        featuredWork: true
     },
     {
         id: "galaxy",
@@ -23,7 +23,7 @@ export const projects = [
         description: "it is galaxy",
         type: "video",
         youtubeId: "",
-        featuredWork: "true"
+        featuredWork: true
     },
     {
         id: "unoki-bon-odori",
@@ -34,7 +34,7 @@ export const projects = [
         description: "", 
         type: "video",
         youtubeId: "-_MT3VBpy_o",
-        featuredWork: "true"
+        featuredWork: true
     },
     // {
     //     id: "",
@@ -52,7 +52,7 @@ export const projects = [
         categories: ["Web","Private Work"],
         thumbnail: "",
         description: "A fun webpage to decorate your own bowl of kaisendon.",
-        featuredWork: "true"
+        featuredWork: true
     },
     // {
     //     id: "",
@@ -70,7 +70,7 @@ export const projects = [
         categories: ["Movie", "Private Work"],
         thumbnail: "",
         description: "友人とコラボして新し見方でMV作ってみました。",
-        featuredWork: "true"
+        featuredWork: true
     },
     {
         id: "tenshi-ni-nante-naranaide",
@@ -79,7 +79,7 @@ export const projects = [
         categories: ["Movie"],
         thumbnail: "",
         description: "1年生の時に参加した他学科とのコラボプロジェクトです。",
-        featuredWork: "true"
+        featuredWork: true
     },
     // {
     //     id: "",
@@ -110,7 +110,7 @@ export const projects = [
             "/images/gundam/gundam.JPG",
             "/images/gundam/gundam.JPG"
         ],
-        featuredWork: "true"
+        featuredWork: true
     },
     {
         id: "",
@@ -119,7 +119,7 @@ export const projects = [
         categories: ["Drawing"],
         thumbnail: "",
         description: "", 
-        featuredWork: "true"
+        featuredWork: false
     },
     // {
     //     id: "",
