@@ -1,0 +1,75 @@
+.strength-section-wrapper {
+    text-align: center; /* Center the h1 */
+    padding: 4rem 0;
+}
+
+.strength-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem; /* Spacing between circles */
+    margin-top: 2rem;
+}
+
+.strength-container {
+    background-color: white;
+    border-radius: 50%;
+    width: 300px; /* Fixed size for circles */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.strength-container:hover {
+    transform: scale(1.05);
+}
+
+.strength-container h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.strength-container p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .strength-container {
+        width: 280px;
+        height: 280px;
+    }
+}
+
+@media (max-width: 768px) {
+    .strength-section {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .strength-container {
+        width: 320px; /* Allow circles to be a bit bigger on mobile when stacked */
+        height: 320px;
+    }
+}
+
+@media (max-width: 480px) {
+    .strength-container {
+        width: 90vw;
+        height: 90vw;
+        padding: 1.5rem;
+    }
+    .strength-container h3 {
+        font-size: 1.1rem;
+    }
+    .strength-container p {
+        font-size: 0.85rem;
+    }
+}

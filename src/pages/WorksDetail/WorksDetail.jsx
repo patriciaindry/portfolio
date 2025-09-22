@@ -35,6 +35,15 @@ function WorksDetail() {
         {project.description.challenges && <p className="challenges">{project.description.challenges}</p>}
       </div>
 
+      {/* LIVE URL FOR WEBSITES */}
+        {project.liveUrl && (
+          <div className="works-detail-link">
+            <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="project-link-button">
+              🔗 Visit Project Website
+            </a>
+          </div>
+        )}
+        
       {/* Duration & Tech */}
       <div className="works-detail-meta">
         {project.duration && <span className="works-detail-duration">{project.duration}</span>}

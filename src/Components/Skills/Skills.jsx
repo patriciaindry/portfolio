@@ -30,7 +30,7 @@ export default function Blocks() {
       <h1>Skills</h1>
 
       {/* Left scroll */}
-      <div className="wrapper">
+      <div className="skills-wrapper">
         {items.map(({ id, delay, logo }) => (
           <div
             key={id}
@@ -43,7 +43,7 @@ export default function Blocks() {
       </div>
 
       {/* Right scroll */}
-      <div className="wrapper">
+      <div className="skills-wrapper">
         {items.map(({ id, delay, logo }) => (
           <div
             key={id}

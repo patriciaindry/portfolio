@@ -1,0 +1,22 @@
+.profile-area{
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 40px;
+}
+.profile-area h1{
+    margin: 10px;
+}
+.pasfoto{
+    width: 250px;
+    height: auto;
+    margin-top: 0;
+}
+.profile-section{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.profile-text{
+    margin-top: 100px;
+}

@@ -4,28 +4,28 @@ const BASE_URL = import.meta.env.BASE_URL;
 //id, slug, title, categories, thumbnail, description, type, (youtubeId/images), featuredWork
 //yg mau ditaroh di website: 
 //Date, Category, Type?, Credits, DESCRIPTION, ref: kaitonote
+    // {
+    //     id: "",
+    //     slug: "", 
+    //     title: "",
+    //     categories: [""],
+    //     thumbnail: `${BASE_URL}thumbnail/galaxy.png`,
+    //     description: {
+    //         summary: "Short intro.",
+    //         details: "Full explanation",
+    //         challenges: "What i learned"
+    //     },
+    //     type: "video",
+    //     youtubeId: "",
+    //     images: [
+    //     `${BASE_URL}images/`,
+    //     `${BASE_URL}images/`,
+    //     ],
+    //     duration: "Jan 2025 - Feb 2025",
+    //     tech: ["React", "Tailwind"],
+    //     featuredWork: false
+    // },
 export const projects = [
-    {
-        id: "",
-        slug: "", 
-        title: "",
-        categories: [""],
-        thumbnail: `${BASE_URL}thumbnail/galaxy.png`,
-        description: {
-            summary: "Short intro.",
-            details: "Full explanation",
-            challenges: "What i learned"
-        },
-        type: "video",
-        youtubeId: "",
-        images: [
-        `${BASE_URL}images/`,
-        `${BASE_URL}images/`,
-        ],
-        duration: "Jan 2025 - Feb 2025",
-        tech: ["React", "Tailwind"],
-        featuredWork: false
-    },
     {
         id: "unoki-bon-odori",
         slug: "unoki-bon-odori", 
@@ -48,9 +48,9 @@ export const projects = [
         featuredWork: true
     },
     {
-        id: "kaisendon-app",
-        slug: "kaisendon-app", 
-        title: "Kaisendon creator",
+        id: "sakanadon-app",
+        slug: "sakanadon-app", 
+        title: "Sakana Don",
         categories: ["Web","Private Work"],
         thumbnail: `${BASE_URL}thumbnail/thumbnail-sakanadon.png`,
         description: {
@@ -58,7 +58,8 @@ export const projects = [
             details: "私自身の経験がきっかけです。日本に来たばかりの頃、生魚を食べるのがとても苦手で、初めの一年はほとんど食べませんでした。しかしある日、友人に背中を押されて挑戦してみた海鮮丼がとても美味しく、気づけばポイントカードを集めるほどお店に通うようになりました。その楽しい思い出を、このゲームに込めたいと思いました。",
             challenges: "プログラミング学習の一環として制作した作品ですが、まだ完成版ではありません。今後も学びを深め、機能を追加してアップデートしていく予定です。"
         },
-        type: "video",
+        type: "image",
+        liveUrl: "https://patriciaindry.github.io/sakanadon/",
         youtubeId: "",
         images: [
         `${BASE_URL}images/sakanadon/1.png`,
@@ -80,7 +81,7 @@ export const projects = [
         categories: ["Movie", "Private Work"],
         thumbnail: `${BASE_URL}thumbnail/thumbnail-cherish.png`,
         description: {
-            summary: "Short intro.友人とコラボして新し見方でMV作ってみました。",
+            summary: "Short intro.友人とコラボしてMV作ってみました。",
             details: "Full explanation",
             challenges: "What i learned"
         },
@@ -123,7 +124,7 @@ export const projects = [
         description: "I made a website to store my portfolio", 
         featuredWork: false
     },
-        {
+    {
         id: "anime-title-design",
         slug: "anime-title-design", 
         title: "PV Animation Title Design",
@@ -136,6 +137,177 @@ export const projects = [
         },
         type: "video",
         youtubeId: "QTlTiIIPBR4",
+        images: [
+        ],
+        duration: "Jan 2025 - Feb 2025",
+        tech: ["After Effects"],
+        featuredWork: false
+    },
+    {
+        id: "monokuro-hikaku",
+        slug: "monokuro-hikaku", 
+        title: "PV Animation Compositing",
+        categories: ["Anime"],
+        thumbnail: `${BASE_URL}thumbnail/thumbnail-monokuro-hikaku.png`,
+        description: {
+            summary: "",
+            details: "",
+            challenges: ""
+        },
+        type: "video",
+        youtubeId: "cIBs3cgyv88",
+        images: [
+        ],
+        duration: "Jan 2025 - Feb 2025",
+        tech: ["After Effects"],
+        featuredWork: false
+    },
+    {
+        id: "diamond-mograph",
+        slug: "diamond-mograph", 
+        title: "Diamond",
+        categories: ["Anime"],
+        thumbnail: `${BASE_URL}thumbnail/thumbnail-diamond.png`,
+        description: {
+            summary: "",
+            details: "",
+            challenges: ""
+        },
+        type: "video",
+        youtubeId: "",
+        images: [
+        ],
+        duration: "Jan 2025 - Feb 2025",
+        tech: ["After Effects"],
+        featuredWork: false
+    },
+    {
+        id: "beach",
+        slug: "beach", 
+        title: "Beach",
+        categories: ["Anime"],
+        thumbnail: `${BASE_URL}thumbnail/thumbnail-beach.png`,
+        description: {
+            summary: "Beach",
+            details: "",
+            challenges: ""
+        },
+        type: "video",
+        youtubeId: "HL8B7PxEdmA",
+        images: [
+        ],
+        duration: "Jan 2025 - Feb 2025",
+        tech: ["After Effects"],
+        featuredWork: false
+    },
+    {
+        id: "hud-screen",
+        slug: "hud-screen", 
+        title: "HUD Screen Warning",
+        categories: ["Anime"],
+        thumbnail: `${BASE_URL}thumbnail/thumbnail-hud.png`,
+        description: {
+            summary: "",
+            details: "",
+            challenges: ""
+        },
+        type: "video",
+        youtubeId: "6x-Cgsb0Q20",
+        images: [
+        ],
+        duration: "Jan 2025 - Feb 2025",
+        tech: ["After Effects"],
+        featuredWork: false
+    },
+    {
+        id: "sakura",
+        slug: "sakura", 
+        title: "Sakura",
+        categories: ["Anime"],
+        thumbnail: `${BASE_URL}thumbnail/thumbnail-sakura.png`,
+        description: {
+            summary: "",
+            details: "",
+            challenges: ""
+        },
+        type: "video",
+        youtubeId: "r7PyRrNh14Q",
+        images: [
+        ],
+        duration: "Jan 2025 - Feb 2025",
+        tech: ["After Effects"],
+        featuredWork: false
+    },
+    {
+        id: "retro-brick",
+        slug: "retro-brick", 
+        title: "Retro Style Brick Game",
+        categories: ["Anime"],
+        thumbnail: `${BASE_URL}thumbnail/thumbnail-brick.png`,
+        description: {
+            summary: "",
+            details: "",
+            challenges: ""
+        },
+        type: "video",
+        youtubeId: "",
+        images: [
+        ],
+        duration: "Jan 2025 - Feb 2025",
+        tech: ["After Effects"],
+        featuredWork: false
+    },
+    {
+        id: "fireworks",
+        slug: "fireworks", 
+        title: "Fireworks",
+        categories: ["Anime"],
+        thumbnail: `${BASE_URL}thumbnail/thumbnail-fireworks.png`,
+        description: {
+            summary: "",
+            details: "",
+            challenges: ""
+        },
+        type: "video",
+        youtubeId: "Qg2klwVF19E",
+        images: [
+        ],
+        duration: "Jan 2025 - Feb 2025",
+        tech: ["After Effects"],
+        featuredWork: false
+    },
+    {
+        id: "space-music",
+        slug: "space-music", 
+        title: "Space Motion",
+        categories: ["Anime"],
+        thumbnail: `${BASE_URL}thumbnail/thumbnail-space.png`,
+        description: {
+            summary: "",
+            details: "",
+            challenges: ""
+        },
+        type: "video",
+        youtubeId: "",
+        images: [
+        ],
+        duration: "Jan 2025 - Feb 2025",
+        tech: ["After Effects"],
+        featuredWork: false
+    },
+   {
+        id: "flowers",
+        slug: "flowers", 
+        title: "Flowers in Tokyo",
+        categories: ["Photography"],
+        thumbnail: `${BASE_URL}thumbnail/thumbnail-flowers.png`,
+        description: {
+            summary: "",
+            details: "",
+            challenges: ""
+        },
+        type: "video",
+        youtubeId: "",
         images: [
         ],
         duration: "Jan 2025 - Feb 2025",
