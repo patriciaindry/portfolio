@@ -13,7 +13,7 @@ const Hero = () => {
             <div className="text-box">
                 Thank you for visiting my portfolio site! <br />
                 I hope you have a nice day. <br />
-                This website is version 15.Aug.2025
+                This website is version 22.Sep.2025
             </div>
             <div className="rotate">SCROLL DOWN</div>
             <div className="hero-text container">

@@ -72,22 +72,22 @@ const Projects = () => {
           <h1 className="proj-h1">Featured Works</h1>
           <div className="projcard" id="projcard-1">
             <Link to={`/works/${featured[0].id}`}>
-              <img src={`${import.meta.env.BASE_URL}${featured[0].thumbnail}`} alt={featured[0].title} />
+              <img src={`${featured[0].thumbnail}`} alt={featured[0].title} />
             </Link>
           </div>
           <div className="projcard" id="projcard-2">
             <Link to={`/works/${featured[1].id}`}>
-              <img src={`${import.meta.env.BASE_URL}${featured[1].thumbnail}`} alt={featured[1].title} />
+              <img src={`${featured[1].thumbnail}`} alt={featured[1].title} />
             </Link>
           </div>
           <div className="projcard" id="projcard-3">
             <Link to={`/works/${featured[2].id}`}>
-              <img src={`${import.meta.env.BASE_URL}${featured[2].thumbnail}`} alt={featured[2].title} />
+              <img src={`${featured[2].thumbnail}`} alt={featured[2].title} />
             </Link>
           </div>
           <div className="projcard" id="projcard-4">
-            <Link to={`/works/${featured[2].id}`}>
-              <img src={`${import.meta.env.BASE_URL}${featured[2].thumbnail}`} alt={featured[2].title} />
+            <Link to={`/works/${featured[3].id}`}>
+              <img src={`${featured[3].thumbnail}`} alt={featured[3].title} />
             </Link>
           </div>
         </section>

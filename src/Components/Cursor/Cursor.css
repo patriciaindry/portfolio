@@ -11,7 +11,7 @@
         top: 0px;
         left: 0px;
         border-radius: 9999px;
-        mix-blend-mode: exclusion;
+        mix-blend-mode: screen;
         pointer-events: none;
         z-index: 300;
     }

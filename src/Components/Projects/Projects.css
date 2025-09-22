@@ -10,7 +10,7 @@ img.projcard{
 }
 h1.proj-h1{
   width: 100%;
-  color: #fff;
+    color: #100;
   font-size: 40vw;
   text-align: center;
   margin: 0;
@@ -30,7 +30,7 @@ h1.proj-h1{
 .projcard{
   position:absolute;
   width: 300px;
-  height: 300px;
+  height: 200px;
   border-radius: 20px;
   overflow: hidden;
 }
@@ -68,14 +68,14 @@ h1.proj-h1{
 .btn-projects{
     padding: 12px 36px;
     background-color: transparent;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #100;
+    border: 1px solid #100;
     border-radius: 12px;
     transition-duration: 0.2s;
 }
 .btn-projects:hover {
   background-color: #04aa6d3e; /* Green */
-  color: white;
+  color: #100;
 }
 
 @media (max-width: 900px){

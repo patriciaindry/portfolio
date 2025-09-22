@@ -6,7 +6,7 @@ import gsap from 'gsap';
 const colors = [
     "#ff0000",
     "#00ff00",
-    "#0000ff",
+    "#0000ff"
 ]
 export default function Cursor() {
     const size = 100;
@@ -66,7 +66,7 @@ export default function Cursor() {
                                     backgroundColor: color,
                                     width: size, 
                                     height: size,
-                                    filter: 'blur(3px)',
+                                    filter: 'blur(10px)',
                                     transition: `transform ${(array.length - i) * 0.08}s ease-out`
                                 }}
                             />
