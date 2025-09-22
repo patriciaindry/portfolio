@@ -79,6 +79,9 @@ h1.proj-h1{
 }
 
 @media (max-width: 900px){
+  .outro button{
+    font-size: 20px;
+  }
   .projects-wrapper{
     position: relative;
     top: 0;

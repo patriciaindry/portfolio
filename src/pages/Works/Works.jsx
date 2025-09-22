@@ -36,7 +36,7 @@ const Works = () => {
                     <Link to={`/works/${project.id}`} className="project-card" key={project.id}>
                         <img src={project.thumbnail} alt={project.title} />
                         <h3>{project.title}</h3>
-                        <p>{project.categories.join(", ")}</p>
+                        {/* <p>{project.categories.join(", ")}</p> */}
                     </Link>
                 ))}
             </div>

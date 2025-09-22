@@ -26,7 +26,7 @@ export default function Blocks() {
   });
 
   return (
-    <>
+    <div className="skills-container">
       <h1>Skills</h1>
 
       {/* Left scroll */}
@@ -54,6 +54,6 @@ export default function Blocks() {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }

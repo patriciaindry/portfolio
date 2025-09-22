@@ -3,7 +3,9 @@
   --item-count: 11;      /* how many items */
   --anim-duration: 30s; /* scroll speed */
 }
-
+.skills-container{
+  padding-top: 100px;
+}
 .wrapper {
   margin-top: 2rem;
   width: 80%;
