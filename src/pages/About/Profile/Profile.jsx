@@ -5,7 +5,7 @@ import pasfoto from "../../../assets/pasfoto1.png";
 const Profile = () => {
     return (
         <div className="profile-area">
-            <h1>Profile</h1>
+            <h1 className="halftone">Profile</h1>
             <div className="profile-section">
                 <img src={pasfoto} alt="" className="pasfoto"/>
                 <div className="profile-text">

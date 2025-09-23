@@ -52,6 +52,7 @@ export default function HorizontalScrollSection() {
 
   return (
     <div className="scroll-section horizontal-section section" ref={sectionRef}>
+      
       <div className="wrapper">
         <div role="list" className="list">
           <div role="listitem" className="item">

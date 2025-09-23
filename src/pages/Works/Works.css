@@ -1,8 +1,8 @@
 body {
   color: #333;
-  background: radial-gradient(100% 100% at 4% 3%, #f0f7ee 0%, transparent),
-              radial-gradient(100% 100% at var(--g2-1-x-position) var(--g2-1-y-position), #6d756be2 0%, transparent),
-              radial-gradient(100% 100% at var(--g2-2-x-position) var(--g2-2-y-position), #bbcebbdc 0%, transparent),
+  background: radial-gradient(100% 100% at 4% 3%, #f7f5ee 0%, transparent),
+              radial-gradient(100% 100% at var(--g2-1-x-position) var(--g2-1-y-position), #fef8d2e2 0%, transparent),
+              radial-gradient(100% 100% at var(--g2-2-x-position) var(--g2-2-y-position), #a0dba0dc 0%, transparent),
               #d2d0d0;
   animation-name: g-2;
   animation-iteration-count: infinite;

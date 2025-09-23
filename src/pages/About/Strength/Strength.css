@@ -9,27 +9,34 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem; /* Spacing between circles */
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .strength-container {
-    background-color: white;
-    border-radius: 50%;
-    width: 300px; /* Fixed size for circles */
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    text-align: center;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
+  --ty: 40px;     /* start translation (GSAP will override) */
+  --scale: 1;     /* hover controls this via stylesheet */
+  transform: translateY(var(--ty)) scale(var(--scale));
+  opacity: 0; /* start invisible; GSAP will animate to 1 */
+  background-color: white;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+  transition: transform 0.45s cubic-bezier(.2,.8,.2,1), box-shadow 0.45s, opacity 0.4s;
 }
 
+/* hover sets the scale var only (no inline conflict) */
 .strength-container:hover {
-    transform: scale(1.05);
+  --scale: 1.05;
+  box-shadow: 0 30px 50px rgba(0,0,0,0.18);
 }
+
 
 .strength-container h3 {
     font-size: 1.2rem;

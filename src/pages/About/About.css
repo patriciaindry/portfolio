@@ -4,21 +4,26 @@
     max-width: 1200px;                                                                                                                     
     margin: 0 auto;                                                                                                                        
 }
+
 .profile-section{
     margin-top: 10vh;
     min-height: 40vh;
 }
 
-.skills-section{
-    /* min-height: 80vh; */
-}
+/* .skills-section{
+    min-height: 80vh; 
+}*/
 
 .strength-section{
-    min-height: 60vh;
+    min-height: 80vh;
+}
+
+.bio-section{
+    min-height: 80vh;
+    text-align: center;
 }
 .activities-section{
     min-height: 80vh;
-}
-.bio-section{
-    /* min-height: 80vh; */
+    margin-top: 100px;
+    text-align: center;
 }

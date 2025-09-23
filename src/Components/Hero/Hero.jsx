@@ -17,7 +17,7 @@ const Hero = () => {
             </div>
             <div className="rotate">SCROLL DOWN</div>
             <div className="hero-text container">
-                <h1>Portfolio</h1>
+                <h1 className="halftone">Portfolio</h1>
                 {/* <p>Write something here</p>
                 <button className="btn">Button</button> */}
                 

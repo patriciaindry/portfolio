@@ -34,7 +34,7 @@ const Activities = () => {
                         </div>
                         <img src={pasfoto} alt="" className="act-item_media" />
                       </div>
-                      {/* <div role="listitem" className="act-item">
+                      <div role="listitem" className="act-item">
                         <div className="act-item_content">
                           <h2>ファッションショーや服のモデルとしての撮影協力</h2>
                           <p className="act-item_p">
@@ -42,7 +42,7 @@ const Activities = () => {
                           </p>
                         </div>
                         <img src={pasfoto} alt="" className="act-item_media" />
-                      </div> */}
+                      </div>
                     </div>
                   </div>
         </div>

@@ -24,11 +24,12 @@ const AboutPage = () => {
                 </div>
 
                 <div className="bio-section">
-                    <h1>Biography</h1>
+                    <h1 className="halftone">Biography</h1>
                     <Biography />
                 </div>
 
                 <div className="activities-section">
+                    <h1 className="halftone">Activities</h1>
                     <Activities />
                 </div>    
         </div>
