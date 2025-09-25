@@ -34,7 +34,6 @@ const Navbar = () => {
 
     return (
         <nav className="container">
-            <img src="" alt="Logo" /> 
 
             {/* Hamburger Icon - transforms into an X */}
             <div ref={menuIconRef} className={`menu-icon ${menuOpen ? 'active' : ''}`} onClick={toggleMenu}>

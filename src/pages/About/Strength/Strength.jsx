@@ -30,7 +30,7 @@ const Strength = () => {
           trigger: sectionRef.current,
           start: "top 80%",                 // when section is ~80% down viewport
           toggleActions: "play none none reset",
-          markers: true,                    // keep markers while tuning
+          // markers: true,                    // keep markers while tuning
         },
       });
     }, sectionRef);

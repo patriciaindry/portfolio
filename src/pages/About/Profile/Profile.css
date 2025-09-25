@@ -20,3 +20,21 @@
 .profile-text{
     margin-top: 100px;
 }
+
+/*  Responsive for mobile */
+@media (max-width: 768px) {
+    .profile-section {
+        flex-direction: column;
+        text-align: center; /* optional: center-align text for mobile */
+        font-size: 16px;
+        margin-top: 5vh;
+    }
+
+    .pasfoto {
+        width: 180px; /* slightly smaller on mobile */
+    }
+
+    .profile-text {
+        margin-top: 5px; /* reduce the large margin */
+    }
+}

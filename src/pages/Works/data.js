@@ -81,18 +81,25 @@ export const projects = [
         categories: ["Movie", "Private Work"],
         thumbnail: `${BASE_URL}thumbnail/thumbnail-cherish.png`,
         description: {
-            summary: "Short intro.友人とコラボしてMV作ってみました。",
-            details: "Full explanation",
-            challenges: "What i learned"
+            summary: "この作品は友人が企画・監督した自主制作で、私はモデルとして参加しました。彼女が好きなK-POP楽曲を題材に、自身の解釈を込めて映像化するという挑戦的なプロジェクトで、私は衣装モデルに加えて振り付けも短期間で習得する必要がありました。",
+            details: "2月の真冬に行った撮影は彼女の寮の部屋を中心に行い、メイクや小道具の準備から撮影まで全て二人だけで手掛けました。さらに一部は屋外でも撮影を行い、寒さに耐えながら大変でしたが、忘れられない経験となりました。モデルとして出演するだけでなく、演出やカメラワークの提案を行い、一部シーンではストップモーションを用いた編集にも携わりました。",
+            challenges: "制作を通じて多くを学び、楽しくも挑戦的で充実した作品となりました。"
         },
         type: "video",
-        youtubeId: "Q3DHeM-1SG0",
+        // youtubeId: "Q3DHeM-1SG0",
         images: [
-        `${BASE_URL}images/`,
-        `${BASE_URL}images/`,
+        `${BASE_URL}images/cherish/cherishtitle.png`,
+        `${BASE_URL}images/cherish/cherish-step1.png`,
+        `${BASE_URL}images/cherish/cherish-step2.png`,
+        `${BASE_URL}images/cherish/cherish-step3.png`,
+        `${BASE_URL}images/cherish/cherish-step4.png`,
+        `${BASE_URL}images/cherish/cherish-step5.png`,
+        `${BASE_URL}images/cherish/cherish-step5-3.png`,
+        `${BASE_URL}images/cherish/cherish-image.png`,
+        `${BASE_URL}images/cherish/cherish-stopmotion2.png`,
         ],
         duration: "Jan 2025 - Feb 2025",
-        tech: ["React", "Tailwind"],
+        tech: ["After Effects", "Capcut", "Shoot on Iphone"],
         featuredWork: true
     },
     {
@@ -115,15 +122,15 @@ export const projects = [
         tech: ["After Effects", "hmm"],
         featuredWork: false
     },
-    {
-        id: "portfolio-website",
-        slug: "portfolio-web", 
-        title: "My Portfolio Page",
-        categories: ["Web"],
-        thumbnail: "",
-        description: "I made a website to store my portfolio", 
-        featuredWork: false
-    },
+    // {
+    //     id: "portfolio-website",
+    //     slug: "portfolio-web", 
+    //     title: "My Portfolio Page",
+    //     categories: ["Web"],
+    //     thumbnail: "",
+    //     description: "I made a website to store my portfolio", 
+    //     featuredWork: false
+    // },
     {
         id: "anime-title-design",
         slug: "anime-title-design", 
@@ -331,7 +338,7 @@ export const projects = [
         images: [
         `${BASE_URL}images/dessan/gundam.JPG`
         ],
-        duration: "Jan 2025 - Feb 2025",
+        duration: "Feb 2025 | 16 hours",
         tech: ["2b", "paper b4"],
         featuredWork: true
     },
@@ -351,7 +358,7 @@ export const projects = [
         images: [
         `${BASE_URL}images/dessan/vespa.png`
         ],
-        duration: "Jan 2025 - Feb 2025",
+        duration: "Feb 2025 | 12 hours",
         tech: ["2b", "paper b4"],
         featuredWork: true
     },
@@ -371,7 +378,47 @@ export const projects = [
         images: [
         `${BASE_URL}images/dessan/fuukei.JPG`
         ],
-        duration: "Jan 2025 - Feb 2025",
+        duration: "May 2025 | 16 hours",
+        tech: ["2b", "paper b4"],
+        featuredWork: true
+    },
+        {
+        id: "dessan-still04",
+        slug: "dessan-still04", 
+        title: "Still Life Drawing",
+        categories: ["Drawing"],
+        thumbnail: `${BASE_URL}thumbnail/thumbnail-seibutsu04.png`,
+        description: {
+            summary: "Short intro.",
+            details: "Full explanation",
+            challenges: "What i learned"
+        },
+        type: "video",
+        youtubeId: "",
+        images: [
+        `${BASE_URL}images/dessan/seibutsu04`
+        ],
+        duration: "Jun 2025 | 14 hours",
+        tech: ["2b", "paper b4"],
+        featuredWork: true
+    },
+        {
+        id: "dessan-still02",
+        slug: "dessan-still02", 
+        title: "Still Life Drawing",
+        categories: ["Drawing"],
+        thumbnail: `${BASE_URL}thumbnail/thumbnail-seibutsu03.png`,
+        description: {
+            summary: "Short intro.",
+            details: "Full explanation",
+            challenges: "What i learned"
+        },
+        type: "video",
+        youtubeId: "",
+        images: [
+        `${BASE_URL}images/dessan/seibutsu03.png`
+        ],
+        duration: "Aug 2025 | 5 hours",
         tech: ["2b", "paper b4"],
         featuredWork: true
     },
@@ -391,47 +438,7 @@ export const projects = [
         images: [
         `${BASE_URL}images/dessan/seibutsu02.jpg`
         ],
-        duration: "Jan 2025 - Feb 2025",
-        tech: ["2b", "paper b4"],
-        featuredWork: true
-    },
-    {
-        id: "dessan-still02",
-        slug: "dessan-still02", 
-        title: "Still Life Drawing",
-        categories: ["Drawing"],
-        thumbnail: `${BASE_URL}thumbnail/thumbnail-seibutsu03.png`,
-        description: {
-            summary: "Short intro.",
-            details: "Full explanation",
-            challenges: "What i learned"
-        },
-        type: "video",
-        youtubeId: "",
-        images: [
-        `${BASE_URL}images/dessan/seibutsu03.png`
-        ],
-        duration: "Jan 2025 - Feb 2025",
-        tech: ["2b", "paper b4"],
-        featuredWork: true
-    },
-    {
-        id: "dessan-still04",
-        slug: "dessan-still04", 
-        title: "Still Life Drawing",
-        categories: ["Drawing"],
-        thumbnail: `${BASE_URL}thumbnail/thumbnail-seibutsu04.png`,
-        description: {
-            summary: "Short intro.",
-            details: "Full explanation",
-            challenges: "What i learned"
-        },
-        type: "video",
-        youtubeId: "",
-        images: [
-        `${BASE_URL}images/dessan/seibutsu04`
-        ],
-        duration: "Jan 2025 - Feb 2025",
+        duration: "Sep 2025 | 5 hours",
         tech: ["2b", "paper b4"],
         featuredWork: true
     },
@@ -451,7 +458,7 @@ export const projects = [
         images: [
         `${BASE_URL}images/dessan/`
         ],
-        duration: "Jan 2025 - Feb 2025",
+        duration: "Sep 2024 | 7 hours",
         tech: ["2b", "paper b4"],
         featuredWork: true
     },
@@ -471,7 +478,7 @@ export const projects = [
         images: [
         `${BASE_URL}images/dessan/`
         ],
-        duration: "Jan 2025 - Feb 2025",
+        duration: "Oct 2024 | 8 hours",
         tech: ["2b", "paper b4"],
         featuredWork: true
     },
@@ -491,7 +498,7 @@ export const projects = [
         images: [
         `${BASE_URL}images/dessan/`
         ],
-        duration: "Jan 2025 - Feb 2025",
+        duration: "Aug 2025 | 6 hours",
         tech: ["2b", "paper b4"],
         featuredWork: true
     },

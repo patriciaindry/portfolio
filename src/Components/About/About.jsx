@@ -11,7 +11,7 @@ const About = () => {
         </video>
         <div className="about-overlay"></div> */}
         <div className="about-container">
-            <h2>*patricia indry ely (パトリシア・インドリ・エリ)</h2>
+            <h2>patricia indry ely (パトリシア・インドリ・エリ)</h2>
             <h4>2004.02.20 || 21y.o || Indonesia → Japan || MEXT student</h4>
             <h1>/</h1>
             <p className="text-explain">
