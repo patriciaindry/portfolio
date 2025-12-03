@@ -40,7 +40,7 @@ const Strength = () => {
 
   return (
     <div className="strength-section-wrapper" ref={sectionRef}>
-      <h1 className="halftone">Strength</h1>
+      <h1 className="halftone noselect">Strength</h1>
       
       <div className="strength-section">
         <div className="strength-container strength-01">
@@ -53,7 +53,7 @@ const Strength = () => {
         <div className="strength-container strength-02">
           <h3>2. 技術と細部へのこだわり</h3>
           <p>
-            グループ作業では、技術面での課題解決や、作品が意図通りに機能するための調整を自然に担当します。細部にまで気を配り、丁寧に作業を進めるため、安心して任せられる存在です。
+            自主的に気を配り、他の人に見えない所まで作業を詰めて行きますグループ作業では、技術面での課題解決や、作品が意図通りに機能するための調整を自然に担当します。
           </p>
         </div>
 

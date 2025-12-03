@@ -69,7 +69,7 @@ const Projects = () => {
     <div className="projects">
       <div className="projects-container">
         <section className="projects-wrapper">
-          <h1 className="proj-h1">Featured Works</h1>
+          <h1 className="proj-h1 noselect">Featured Works</h1>
           <div className="projcard" id="projcard-1">
             <Link to={`/works/${featured[0].id}`}>
               <img src={`${featured[0].thumbnail}`} alt={featured[0].title} />

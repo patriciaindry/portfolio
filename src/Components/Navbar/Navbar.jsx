@@ -33,7 +33,7 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="container">
+        <nav className="container noselect">
 
             {/* Hamburger Icon - transforms into an X */}
             <div ref={menuIconRef} className={`menu-icon ${menuOpen ? 'active' : ''}`} onClick={toggleMenu}>
