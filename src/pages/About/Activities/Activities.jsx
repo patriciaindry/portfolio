@@ -2,6 +2,9 @@ import React from "react";
 import './Activities.css';
 import pasfoto from "../../../assets/pasfoto1.png";
 import badmin from "../../../assets/badmin.png";
+import ootataishi from "../../../assets/ootataishi.png";
+import deaflympic from "../../../assets/deaflympic.png";
+import modeling from "../../../assets/modeling.png";
 
 const Activities = () => {
     return (
@@ -25,15 +28,15 @@ const Activities = () => {
                             
                           </p>
                         </div>
-                        <img src={pasfoto} alt="" className="act-item_media" />
+                        <img src={ootataishi} alt="" className="act-item_media" />
                       </div>
                       <div role="listitem" className="act-item">
                         <div className="act-item_content">
-                          <h2>体育祭や学校行事でのボランティア参加 </h2>
+                          <h2>体育祭、学校行事やボランティア参加 </h2>
                           <p className="act-item_p">
                           </p>
                         </div>
-                        <img src={pasfoto} alt="" className="act-item_media" />
+                        <img src={deaflympic} alt="" className="act-item_media" />
                       </div>
                       <div role="listitem" className="act-item">
                         <div className="act-item_content">
@@ -42,7 +45,7 @@ const Activities = () => {
                             
                           </p>
                         </div>
-                        <img src={pasfoto} alt="" className="act-item_media" />
+                        <img src={modeling} alt="" className="act-item_media" />
                       </div>
                     </div>
                   </div>

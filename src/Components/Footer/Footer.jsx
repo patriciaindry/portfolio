@@ -28,9 +28,9 @@ const Footer = () => {
                     <div className="sns-links">
                         <h3 className="foot-text">Social</h3><br />
                         <ul className="foot-ul">
-                            <li className="foot-text"><a href="#" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-                            <li className="foot-text"><a href="#" target="_blank" rel="noopener noreferrer">Youtube</a></li>
-                            <li className="foot-text"><a href="#" target="_blank" rel="noopener noreferrer">Github</a></li>                
+                            <li className="foot-text"><a href="https://www.instagram.com/patricia.indry/?" target="https://www.instagram.com/patricia.indry/?" rel="noopener noreferrer">Instagram</a></li>
+                            <li className="foot-text"><a href="https://www.youtube.com/@ynz-i" target="https://www.youtube.com/@ynz-i" rel="noopener noreferrer">Youtube</a></li>
+                            <li className="foot-text"><a href="https://github.com/patriciaindry" target="https://github.com/patriciaindry" rel="noopener noreferrer">Github</a></li>                
                         </ul>
                     </div>
                 </div>

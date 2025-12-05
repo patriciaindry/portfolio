@@ -33,7 +33,7 @@ export const projects = [
         categories: ["Movie", "Private Work"],
         type: "video",
         youtubeId: "", //belum bisa masukin soalnya belum selesai diedit hehe
-        thumbnail: "",
+        thumbnail: `${BASE_URL}thumbnail/thumbnail-shrimp.png`,
         description: "今まで取り組んでいた制作に一本の動画に編集しました。", 
         duration: "Nov 2025",
         tech: ["After Effects", "Adobe Premiere"],
@@ -145,7 +145,7 @@ export const projects = [
 
         ],
         duration: "Jan 2025 - Feb 2025",
-        tech: ["After Effects", "hmm"],
+        tech: ["After Effects", ""],
         featuredWork: false
     },
     // {
@@ -351,13 +351,12 @@ export const projects = [
     {
         id: "figurine-gundam",
         slug: "figurine-gundam", 
-        title: "Gundam",
+        title: "Gundam ガンダム",
         categories: ["Drawing"],
         thumbnail: `${BASE_URL}thumbnail/thumbnail-gundam.png`,
         description: {
-            summary: "Short intro.デッサンの授業で、フィギュアーを描くといった課題で、ガンダムをモチーフとして選び、１６時間ぐらいで描き上げました。",
-            details: "Full explanation",
-            challenges: "What i learned"
+            summary: "デッサンの授業で、フィギュアーを描くといった課題で、ガンダムをモチーフとして選び、１６時間ぐらいで描き上げました。",
+            details: "特に、面と面がつながるパーツが多く、とても勉強になったデッサンの一つです。"
         },
         type: "video",
         youtubeId: "",
@@ -365,7 +364,7 @@ export const projects = [
         `${BASE_URL}images/dessan/gundam.JPG`
         ],
         duration: "Feb 2025 | 16 hours",
-        tech: ["2b", "paper b4"],
+        tech: ["2H - 4B", "Paper Size B4"],
         featuredWork: true
     },
     {
@@ -375,9 +374,9 @@ export const projects = [
         categories: ["Drawing"],
         thumbnail: `${BASE_URL}thumbnail/thumbnail-vespa.png`,
         description: {
-            summary: "Short intro.",
-            details: "Full explanation",
-            challenges: "What i learned"
+            summary: "生き物である猫の柔らかさや動きのある形とは異なり、バイクは金属の質感や構造が明確で、描き分けがとても楽しいモチーフでした。",
+            details: "異なる質感を観察し、表現する良い練習になりました。",
+            challenges: ""
         },
         type: "video",
         youtubeId: "",
@@ -385,7 +384,7 @@ export const projects = [
         `${BASE_URL}images/dessan/vespa.png`
         ],
         duration: "Feb 2025 | 12 hours",
-        tech: ["2b", "paper b4"],
+        tech: ["2H - 4B", "Paper Size B4"],
         featuredWork: true
     },
     {
@@ -395,9 +394,8 @@ export const projects = [
         categories: ["Drawing"],
         thumbnail: `${BASE_URL}thumbnail/thumbnail-fuukei.png`,
         description: {
-            summary: "Short intro.",
-            details: "Full explanation",
-            challenges: "What i learned"
+            summary: "初めて風景を題材に本格的に取り組んだ作品です。遠近感を意識しながら、実際の視点では小さく見える要素を大きく描いてしまう癖と向き合い、サイズのバランスを丁寧に調整しました。",
+            details: "また、人物や通り過ぎる電車をあえて配置することで、静かな景観の中にわずかな動きと生活感を加えることを試みました。",
         },
         type: "video",
         youtubeId: "",
@@ -405,8 +403,27 @@ export const projects = [
         `${BASE_URL}images/dessan/fuukei.JPG`
         ],
         duration: "May 2025 | 16 hours",
-        tech: ["2b", "paper b4"],
+        tech: ["2H - 4B", "Paper Size B4"],
         featuredWork: true
+    },
+    {
+        id: "dessan-still05",
+        slug: "dessan-still05", 
+        title: "Still Life Drawing",
+        categories: ["Drawing"],
+        thumbnail: `${BASE_URL}thumbnail/thumbnail-seibutsu05.png`,
+        description: {
+            summary: "",
+            details: ""
+        },
+        type: "video",
+        youtubeId: "",
+        images: [
+        `${BASE_URL}images/dessan/seibutsu05.jpg`
+        ],
+        duration: "Oct 2025 | 14 hours",
+        tech: ["2H - 4B", "Paper Size B4"],
+        featuredWork: false
     },
         {
         id: "dessan-still04",
@@ -415,63 +432,42 @@ export const projects = [
         categories: ["Drawing"],
         thumbnail: `${BASE_URL}thumbnail/thumbnail-seibutsu04.png`,
         description: {
-            summary: "Short intro.",
-            details: "Full explanation",
-            challenges: "What i learned"
+            summary: "金属パイプ、プラスチック製ボール、ワインボトル、格子柄のテーブルクロスを配置した静物を描きました。素材ごとに光沢、透明感、硬さ、布の柔らかさなど質感が大きく異なるため、それぞれの特徴をどう描き分けるかを試しながら制作しました。",
+            details: "また、光の当たり方が素材によって異なることを観察し、その変化を表現することが大きな学びとなりました。"
         },
         type: "video",
         youtubeId: "",
         images: [
-        `${BASE_URL}images/dessan/seibutsu04`
+        `${BASE_URL}images/dessan/seibutsu04.JPG`
         ],
         duration: "Jun 2025 | 14 hours",
-        tech: ["2b", "paper b4"],
+        tech: ["2H - 4B", "Paper Size B4"],
         featuredWork: true
     },
-        {
-        id: "dessan-still02",
-        slug: "dessan-still02", 
-        title: "Still Life Drawing",
-        categories: ["Drawing"],
-        thumbnail: `${BASE_URL}thumbnail/thumbnail-seibutsu03.png`,
-        description: {
-            summary: "Short intro.",
-            details: "Full explanation",
-            challenges: "What i learned"
-        },
-        type: "video",
-        youtubeId: "",
-        images: [
-        `${BASE_URL}images/dessan/seibutsu03.png`
-        ],
-        duration: "Aug 2025 | 5 hours",
-        tech: ["2b", "paper b4"],
-        featuredWork: true
-    },
-    {
-        id: "dessan-still01",
-        slug: "dessan-still01", 
-        title: "Still Life Drawing",
-        categories: ["Drawing"],
-        thumbnail: `${BASE_URL}thumbnail/thumbnail-seibutsu02.png`,
-        description: {
-            summary: "Short intro.",
-            details: "Full explanation",
-            challenges: "What i learned"
-        },
-        type: "video",
-        youtubeId: "",
-        images: [
-        `${BASE_URL}images/dessan/seibutsu02.jpg`
-        ],
-        duration: "Sep 2025 | 5 hours",
-        tech: ["2b", "paper b4"],
-        featuredWork: true
-    },
+    // {
+    //     id: "dessan-still01",
+    //     slug: "dessan-still01", 
+    //     title: "Still Life Drawing",
+    //     categories: ["Drawing"],
+    //     thumbnail: `${BASE_URL}thumbnail/thumbnail-seibutsu02.png`,
+    //     description: {
+    //         summary: "Short intro.",
+    //         details: "Full explanation",
+    //         challenges: "What i learned"
+    //     },
+    //     type: "video",
+    //     youtubeId: "",
+    //     images: [
+    //     `${BASE_URL}images/dessan/seibutsu02.jpg`
+    //     ],
+    //     duration: "Sep 2025 | 5 hours",
+    //     tech: ["2H - 4B", "Paper Size B4"],
+    //     featuredWork: false
+    // },
     {
         id: "dessan-plaster01",
         slug: "dessan-plaster01", 
-        title: "Statue of XXX",
+        title: "古代ヴィーナス首像",
         categories: ["Drawing"],
         thumbnail: `${BASE_URL}thumbnail/thumbnail-sekkouzou01.png`,
         description: {
@@ -482,16 +478,16 @@ export const projects = [
         type: "video",
         youtubeId: "",
         images: [
-        `${BASE_URL}images/dessan/`
+        `${BASE_URL}images/dessan/sekkouzou01_.png`
         ],
         duration: "Sep 2024 | 7 hours",
-        tech: ["2b", "paper b4"],
-        featuredWork: true
+        tech: ["2H - 4B", "Paper Size B4"],
+        featuredWork: false
     },
     {
         id: "dessan-plaster02",
         slug: "dessan-plaster02", 
-        title: "Statue of XXX",
+        title: "青年マルス首像",
         categories: ["Drawing"],
         thumbnail: `${BASE_URL}thumbnail/thumbnail-sekkouzou02.png`,
         description: {
@@ -502,16 +498,16 @@ export const projects = [
         type: "video",
         youtubeId: "",
         images: [
-        `${BASE_URL}images/dessan/`
+        `${BASE_URL}images/dessan/sekkouzou02.jpg`
         ],
         duration: "Oct 2024 | 8 hours",
-        tech: ["2b", "paper b4"],
-        featuredWork: true
+        tech: ["2H - 4B", "Paper Size B4"],
+        featuredWork: false
     },
     {
         id: "dessan-plaster04",
         slug: "dessan-plaster04", 
-        title: "Statue of XXX",
+        title: "武装せる女神胸像",
         categories: ["Drawing"],
         thumbnail: `${BASE_URL}thumbnail/thumbnail-sekkouzou04.png`,
         description: {
@@ -522,10 +518,10 @@ export const projects = [
         type: "video",
         youtubeId: "",
         images: [
-        `${BASE_URL}images/dessan/`
+        `${BASE_URL}images/dessan/sekkouzou04.png`
         ],
         duration: "Aug 2025 | 6 hours",
-        tech: ["2b", "paper b4"],
-        featuredWork: true
+        tech: ["2H - 4B", "Paper Size B4"],
+        featuredWork: false
     },
 ];

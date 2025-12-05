@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./About.css";
 import circledots from '../../assets/circle-bg.mp4';
 import { Link } from "react-router-dom";

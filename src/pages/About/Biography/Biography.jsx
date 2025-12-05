@@ -6,6 +6,7 @@ import pasfoto from "../../../assets/pasfoto1.png";
 import pertama from "../../../assets/pertama.png";
 import kedua from "../../../assets/kedua.png";
 import ketiga from "../../../assets/ketiga.png";
+import kelima from "../../../assets/kelima.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -114,7 +115,7 @@ export default function HorizontalScrollSection() {
                 見て感じる表現を通して人々の心を動かす作品を制作し、将来的には国や文化を越えて活躍できるクリエイターを目指しています。
               </p>
             </div>
-            <img src={pasfoto} alt="" className="item_media" />
+            <img src={kelima} alt="" className="item_media" />
           </div>
         </div>
       </div>
