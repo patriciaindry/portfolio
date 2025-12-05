@@ -32,10 +32,12 @@ export const projects = [
         title: "Show REEL 2025",
         categories: ["Movie", "Private Work"],
         type: "video",
-        youtubeId: "", //belum bisa masukin soalnya belum selesai diedit hehe
-        thumbnail: `${BASE_URL}thumbnail/thumbnail-shrimp.png`,
-        description: "今まで取り組んでいた制作に一本の動画に編集しました。", 
-        duration: "Nov 2025",
+        youtubeId: "23TEM7Ag0pY", //belum bisa masukin soalnya belum selesai diedit hehe
+        thumbnail: `${BASE_URL}thumbnail/thumbnail-showreel.png`,
+        description: {
+            summary: "このショーリールは、今年制作したモーショングラフィックス、コンポジット、その他の作品をまとめたものです。学生としてまだ学んでいる途中ですが、制作を重ねる中で、自分らしい表現や好きなメディアが少しずつ見えてきました。", 
+        },
+            duration: "Nov 2025",
         tech: ["After Effects", "Adobe Premiere"],
         featuredWork: true
     },
@@ -47,7 +49,9 @@ export const projects = [
         type: "video",
         youtubeId: "SpWEpPBRnJw", 
         thumbnail: `${BASE_URL}thumbnail/thumbnail-shrimp.png`,
-        description: "加熱によって青みを帯びた殻が赤へと移り変わる、その繊細な色の変化に惹かれました。その印象を、形と色のバランスで視覚的に表現しています。", 
+        description: {
+           summary: "加熱によって青みを帯びた殻が赤へと移り変わる、その繊細な色の変化に惹かれました。その印象を、形と色のバランスで視覚的に表現しています。", 
+        },
         duration: "Nov 2025",
         tech: ["After Effects"],
         featuredWork: false
@@ -471,9 +475,9 @@ export const projects = [
         categories: ["Drawing"],
         thumbnail: `${BASE_URL}thumbnail/thumbnail-sekkouzou01.png`,
         description: {
-            summary: "Short intro.",
-            details: "Full explanation",
-            challenges: "What i learned"
+            summary: "",
+            details: "",
+            challenges: ""
         },
         type: "video",
         youtubeId: "",
@@ -491,9 +495,9 @@ export const projects = [
         categories: ["Drawing"],
         thumbnail: `${BASE_URL}thumbnail/thumbnail-sekkouzou02.png`,
         description: {
-            summary: "Short intro.",
-            details: "Full explanation",
-            challenges: "What i learned"
+            summary: "",
+            details: "",
+            challenges: ""
         },
         type: "video",
         youtubeId: "",
@@ -511,9 +515,9 @@ export const projects = [
         categories: ["Drawing"],
         thumbnail: `${BASE_URL}thumbnail/thumbnail-sekkouzou04.png`,
         description: {
-            summary: "Short intro.",
-            details: "Full explanation",
-            challenges: "What i learned"
+            summary: "",
+            details: "",
+            challenges: ""
         },
         type: "video",
         youtubeId: "",
