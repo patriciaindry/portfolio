@@ -1,6 +1,7 @@
 import React from "react";
 import './Activities.css';
 import pasfoto from "../../../assets/pasfoto1.png";
+import badmin from "../../../assets/badmin.png";
 
 const Activities = () => {
     return (
@@ -15,7 +16,7 @@ const Activities = () => {
                             
                           </p>
                         </div>
-                        <img src={pasfoto} alt="" className="act-item_media" />
+                        <img src={badmin} alt="" className="act-item_media" />
                       </div>
                       <div role="listitem" className="act-item">
                         <div className="act-item_content">

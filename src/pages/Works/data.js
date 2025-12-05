@@ -27,6 +27,32 @@ const BASE_URL = import.meta.env.BASE_URL;
     // },
 export const projects = [
     {
+        id: "show-reel-2025",
+        slug: "show-reel-2025", 
+        title: "Show REEL 2025",
+        categories: ["Movie", "Private Work"],
+        type: "video",
+        youtubeId: "", //belum bisa masukin soalnya belum selesai diedit hehe
+        thumbnail: "",
+        description: "今まで取り組んでいた制作に一本の動画に編集しました。", 
+        duration: "Nov 2025",
+        tech: ["After Effects", "Adobe Premiere"],
+        featuredWork: true
+    },
+    {
+        id: "shrimp",
+        slug: "shrimp", 
+        title: "shrimp (motion graphics)",
+        categories: ["video"],
+        type: "video",
+        youtubeId: "SpWEpPBRnJw", 
+        thumbnail: `${BASE_URL}thumbnail/thumbnail-shrimp.png`,
+        description: "加熱によって青みを帯びた殻が赤へと移り変わる、その繊細な色の変化に惹かれました。その印象を、形と色のバランスで視覚的に表現しています。", 
+        duration: "Nov 2025",
+        tech: ["After Effects"],
+        featuredWork: false
+    },
+    {
         id: "unoki-bon-odori",
         slug: "unoki-bon-odori", 
         title: "Bon Odori in Unoki",
@@ -45,7 +71,7 @@ export const projects = [
         ],
         duration: "24 Jul 2025",
         tech: ["After Effects", "Shoot in Iphone 12"],
-        featuredWork: true
+        featuredWork: false
     },
     {
         id: "sakanadon-app",

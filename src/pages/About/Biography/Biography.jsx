@@ -3,7 +3,9 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import './Biography.css';
 import pasfoto from "../../../assets/pasfoto1.png";
-
+import pertama from "../../../assets/pertama.png";
+import kedua from "../../../assets/kedua.png";
+import ketiga from "../../../assets/ketiga.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -67,7 +69,7 @@ export default function HorizontalScrollSection() {
                 その間にピアノやギターなどの楽器を独学し、動画編集にも取り組むようになりました。
               </p>
             </div>
-            <img src={pasfoto} alt="" className="item_media" />
+            <img src={pertama} alt="" className="item_media" />
           </div>
           <div role="listitem" className="item">
             <div className="item_content">
@@ -79,7 +81,7 @@ export default function HorizontalScrollSection() {
                 在学中にMEXT奨学金の合格通知を受け、日本で学ぶための準備を始めました。
               </p>
             </div>
-            <img src={pasfoto} alt="" className="item_media" />
+            <img src={kedua} alt="" className="item_media" />
           </div>
           <div role="listitem" className="item">
             <div className="item_content">
@@ -91,7 +93,7 @@ export default function HorizontalScrollSection() {
                 一年間の日本語学校にN1に合格し、ホテルやレストランでの接客、ツアーガイドなどのアルバイトを経験しました。
               </p>
             </div>
-            <img src={pasfoto} alt="" className="item_media" />
+            <img src={ketiga} alt="" className="item_media" />
           </div>
           <div role="listitem" className="item">
             <div className="item_content">
