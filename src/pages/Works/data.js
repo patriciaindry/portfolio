@@ -287,7 +287,7 @@ export const projects = [
             challenges: ""
         },
         type: "video",
-        youtubeId: "",
+        youtubeId: "KmsPol036F8",
         images: [
         ],
         duration: "Jan 2025 - Feb 2025",
@@ -355,7 +355,7 @@ export const projects = [
     {
         id: "figurine-gundam",
         slug: "figurine-gundam", 
-        title: "Gundam ガンダム",
+        title: "ガンダム",
         categories: ["Drawing"],
         thumbnail: `${BASE_URL}thumbnail/thumbnail-gundam.png`,
         description: {
@@ -374,7 +374,7 @@ export const projects = [
     {
         id: "dessan-vespa",
         slug: "dessan-vespa", 
-        title: "Cat on Motorcycle",
+        title: "父のスクータと子猫",
         categories: ["Drawing"],
         thumbnail: `${BASE_URL}thumbnail/thumbnail-vespa.png`,
         description: {
@@ -394,7 +394,7 @@ export const projects = [
     {
         id: "dessan-landscape",
         slug: "dessan-landscape", 
-        title: "Landscape, in front of school building",
+        title: "風景(校舎の前)",
         categories: ["Drawing"],
         thumbnail: `${BASE_URL}thumbnail/thumbnail-fuukei.png`,
         description: {
@@ -413,7 +413,7 @@ export const projects = [
     {
         id: "dessan-still05",
         slug: "dessan-still05", 
-        title: "Still Life Drawing",
+        title: "静物デッサン",
         categories: ["Drawing"],
         thumbnail: `${BASE_URL}thumbnail/thumbnail-seibutsu05.png`,
         description: {
@@ -432,7 +432,7 @@ export const projects = [
         {
         id: "dessan-still04",
         slug: "dessan-still04", 
-        title: "Still Life Drawing",
+        title: "静物デッサン",
         categories: ["Drawing"],
         thumbnail: `${BASE_URL}thumbnail/thumbnail-seibutsu04.png`,
         description: {
@@ -468,12 +468,12 @@ export const projects = [
     //     tech: ["2H - 4B", "Paper Size B4"],
     //     featuredWork: false
     // },
-    {
-        id: "dessan-plaster01",
-        slug: "dessan-plaster01", 
-        title: "古代ヴィーナス首像",
+           {
+        id: "human-figure",
+        slug: "human-figure", 
+        title: "人物デッサン",
         categories: ["Drawing"],
-        thumbnail: `${BASE_URL}thumbnail/thumbnail-sekkouzou01.png`,
+        thumbnail: `${BASE_URL}thumbnail/thumbnail-jinbutsu.png`,
         description: {
             summary: "",
             details: "",
@@ -482,13 +482,33 @@ export const projects = [
         type: "video",
         youtubeId: "",
         images: [
-        `${BASE_URL}images/dessan/sekkouzou01_.png`
+        `${BASE_URL}images/dessan/jinbutsu.jpg`
         ],
-        duration: "Sep 2024 | 7 hours",
-        tech: ["2H - 4B", "Paper Size B4"],
+        duration: "Aug 2025 | 6 hours",
+        tech: ["2H - 4B", "Paper Size B3"],
         featuredWork: false
     },
-    {
+       {
+        id: "dessan-plaster04",
+        slug: "dessan-plaster04", 
+        title: "ブルータス胸像",
+        categories: ["Drawing"],
+        thumbnail: `${BASE_URL}thumbnail/thumbnail-sekkouzou05.png`,
+        description: {
+            summary: "",
+            details: "",
+            challenges: ""
+        },
+        type: "video",
+        youtubeId: "",
+        images: [
+        `${BASE_URL}images/dessan/sekkouzou05.jpg`
+        ],
+        duration: "Aug 2025 | 6 hours",
+        tech: ["2H - 4B", "木炭紙"],
+        featuredWork: false
+    },
+        {
         id: "dessan-plaster02",
         slug: "dessan-plaster02", 
         title: "青年マルス首像",
@@ -509,11 +529,11 @@ export const projects = [
         featuredWork: false
     },
     {
-        id: "dessan-plaster04",
-        slug: "dessan-plaster04", 
-        title: "武装せる女神胸像",
+        id: "dessan-plaster01",
+        slug: "dessan-plaster01", 
+        title: "古代ヴィーナス首像",
         categories: ["Drawing"],
-        thumbnail: `${BASE_URL}thumbnail/thumbnail-sekkouzou04.png`,
+        thumbnail: `${BASE_URL}thumbnail/thumbnail-sekkouzou01.png`,
         description: {
             summary: "",
             details: "",
@@ -522,10 +542,12 @@ export const projects = [
         type: "video",
         youtubeId: "",
         images: [
-        `${BASE_URL}images/dessan/sekkouzou04.png`
+        `${BASE_URL}images/dessan/sekkouzou01_.png`
         ],
-        duration: "Aug 2025 | 6 hours",
+        duration: "Sep 2024 | 7 hours",
         tech: ["2H - 4B", "Paper Size B4"],
         featuredWork: false
     },
+
+ 
 ];

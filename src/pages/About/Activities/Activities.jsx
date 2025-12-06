@@ -23,7 +23,7 @@ const Activities = () => {
                       </div>
                       <div role="listitem" className="act-item">
                         <div className="act-item_content">
-                          <h2>おおた大使国際所属 </h2>
+                          <h2>国際都市大田大使所属</h2>
                           <p className="act-item_p">
                             
                           </p>
