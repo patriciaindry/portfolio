@@ -19,6 +19,11 @@ a{
   padding-right: 5%;
   
 }
+body {
+  font-family: 'Playfair Display', 'Noto Serif JP', serif;
+}
+
+
 
 /* --- media query --- */
 @media (max-width: 1200px){

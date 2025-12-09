@@ -225,7 +225,7 @@ export const projects = [
         categories: ["Anime"],
         thumbnail: `${BASE_URL}thumbnail/thumbnail-beach.png`,
         description: {
-            summary: "Beach",
+            summary: "",
             details: "",
             challenges: ""
         },
@@ -325,7 +325,7 @@ export const projects = [
             challenges: ""
         },
         type: "video",
-        youtubeId: "",
+        youtubeId: "azFL90btSwU",
         images: [
         ],
         duration: "Jan 2025 - Feb 2025",

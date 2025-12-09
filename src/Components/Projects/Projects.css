@@ -69,6 +69,7 @@ h1.proj-h1{
   text-align: center;
 }
 .btn-projects{
+    font-family: 'Playfair Display', 'Noto Serif JP', serif;
     padding: 12px 36px;
     background-color: transparent;
     color: #100;

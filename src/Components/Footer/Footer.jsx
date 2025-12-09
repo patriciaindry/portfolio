@@ -20,8 +20,8 @@ const Footer = () => {
                         <h3 className="foot-text">Menu</h3><br />
                         <ul className="foot-ul">
                             <li className="foot-text"><Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Index</Link></li>
-                            <li className="foot-text"><Link to="/works">Works</Link></li>
-                            <li className="foot-text"><Link to="/about">Profile</Link></li>
+                            <li className="foot-text"><Link to="/works" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Works</Link></li>
+                            <li className="foot-text"><Link to="/about" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Profile</Link></li>
                         </ul>
                     </div>
 
