@@ -19,6 +19,7 @@ import Title from "./Components/Title/Title";
 import WorksDetail from "./pages/WorksDetail/WorksDetail";
 import Cursor from "./Components/Cursor/Cursor";
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
+import MobileAlert from "./Components/Alert/Alert";
 
 const App = () => {
   return (
@@ -26,6 +27,8 @@ const App = () => {
       <Router>
         <ScrollToTop />
         <Navbar/>
+
+        <MobileAlert/>
         <Routes>
           <Route path="/" element={<Landing />}/>
           <Route path="/works" element={<Works />} />
