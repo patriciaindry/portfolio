@@ -49,6 +49,7 @@ body {
     radial-gradient(rgb(11, 10, 10) 27%, transparent 28%);
   background-size: 0.3vw 0.3vw;
   background-position: 0 0, 0.5vw 0.5vw;
+  background-clip: text;  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
